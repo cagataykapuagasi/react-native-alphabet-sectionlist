@@ -122,20 +122,26 @@ const styles = StyleSheet.create({
   container: {
     position: 'absolute',
     backgroundColor: 'transparent',
-    alignItems:'flex-end',
+    alignItems:'center',
     justifyContent:'center',
-    right: 5,
-    top: 0,
-    bottom: 0
+    right: 8,
+    top: 32,
   },
 
   item: {
-    padding: 0
+    padding: 0,
+    alignItems: 'center',
+    justifyContent: 'center',
+    minWidth: 12
   },
 
   text: {
-    fontWeight: '700',
-    color: '#008fff'
+    fontWeight: '400',
+    color: '#5EB366',
+    fontFamily: 'Inter',
+    fontSize: 13,
+    lineHeight: 17,
+    letterSpacing: -0.41,
   },
 
   inactivetext: {
